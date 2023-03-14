@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">CAREER CLIMB</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="Search Courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">Harshit</h3>
+         <p class="role">Student</p>
+         <a href="profile.html" class="btn">View Profile</a>
+         <!-- <div class="flex-btn"> -->
+            <!-- <a href="login.html" class="option-btn">Login</a> -->
+            <!-- <a href="register.html" class="option-btn">Register</a> -->
+         <!-- </div> -->
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name">Harshit</h3>
+      <p class="role">Student</p>
+      <a href="profile.html" class="btn">View Profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>HOME</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>ABOUT</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>COURSES</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>TEACHERS</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>CONTACT US</span></a>
+   </nav>
+
+</div>
+
+<section class="home-grid">
+
+   <h1 class="heading">Quick Options</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3 class="title">Likes and Comments</h3>
+         <p class="likes">Total Likes : <span>25</span></p>
+         <a href="#" class="inline-btn">View Likes</a>
+         <p class="likes">Total Comments : <span>12</span></p>
+         <a href="#" class="inline-btn">View Comments</a>
+         <p class="likes">Saved Playlists : <span>4</span></p>
+         <a href="#" class="inline-btn">View Playlists</a>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Top Categories</h3>
+         <div class="flex">
+            <a href="#"><i class="fas fa-code"></i><span>Development</span></a>
+            <a href="#"><i class="fas fa-chart-simple"></i><span>Business</span></a>
+            <a href="#"><i class="fas fa-pen"></i><span>Design </span></a>
+            <a href="#"><i class="fas fa-chart-line"></i><span>Marketing</span></a>
+            <a href="#"><i class="fas fa-music"></i><span>Music</span></a>
+            <a href="#"><i class="fas fa-cog"></i><span>Software</span></a>
+            <a href="#"><i class="fas fa-vial"></i><span>Science</span></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3 class="title">popular topics</h3>
+         <div class="flex">
+            <a href="#"><i class="fab fa-html5"></i><span>HTML</span></a>
+            <a href="#"><i class="fab fa-css3"></i><span>CSS</span></a>
+            <a href="#"><i class="fab fa-js"></i><span>Javascript</span></a>
+            <a href="#"><i class="fab fa-react"></i><span>react</span></a>
+            <a href="#"><i class="fab fa-php"></i><span>PHP</span></a>
+            <a href="#"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Become a Tutor</h3>
+         <p class="tutor">Join us and share your knowledge as a tutor with Career Climb</p>
+         <a href="teachers.html" class="inline-btn">Get Started</a>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<section class="courses">
+
+   <h1 class="heading">Our Courses</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-2.jpg" alt="">
+            <div class="info">
+               <h3>Sarika</h3>
+               <span>18-03-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-1.png" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">Complete HTML Tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View Playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-3.jpg" alt="">
+            <div class="info">
+               <h3>Aman</h3>
+               <span>18-03-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-2.png" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">Complete CSS Tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View Playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-4.jpg" alt="">
+            <div class="info">
+               <h3>Tejas</h3>
+               <span>18-03-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-3.png" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">complete JS tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View Playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-5.jpg" alt="">
+            <div class="info">
+               <h3>Shraddha</h3>
+               <span>18-03-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-4.png" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">Complete Boostrap Tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View Playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-6.jpg" alt="">
+            <div class="info">
+               <h3>John </h3>
+               <span>18-03-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-5.png" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">Complete JQuery Tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View Playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-7.jpg" alt="">
+            <div class="info">
+               <h3>Riya</h3>
+               <span>18-03-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-6.png" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">Complete SASS Tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View Playlist</a>
+      </div>
+
+   </div>
+
+   <div class="more-btn">
+      <a href="courses.html" class="inline-option-btn">View All Courses</a>
+   </div>
+
+</section>
+<footer class="footer">
+
+   &copy; copyright @ 2023 by <span>CAREER CLIMB</span> | All Rights Reserved!
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>

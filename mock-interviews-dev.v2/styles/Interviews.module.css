@@ -1,0 +1,22 @@
+.interviewSlots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  /* margin: 2rem;
+  justify-content: center; */
+  margin: 2rem 7rem;
+  justify-content: flex-start;
+}
+
+.interviewSlotCard {
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem;
+  padding: 1.5rem 3rem;
+}
+
+.interviewSlotCard > h3,
+.interviewSlotCard > h4,
+.interviewSlotCard > p {
+  margin: 0.8rem 0;
+}

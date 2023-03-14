@@ -1,0 +1,27 @@
+.banner {
+  display: flex;
+  align-items: center;
+  /* margin: 2.5rem 2rem; */
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  width: 600px;
+  color: var(--primary);
+}
+
+@media only screen and (max-width: 780px) {
+  .banner {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 3rem;
+    font-weight: 700;
+    width: 335px;
+    text-align: center;
+  }
+}

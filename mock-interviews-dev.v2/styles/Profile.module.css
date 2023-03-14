@@ -1,0 +1,41 @@
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.profileCard {
+  width: max-content;
+  padding: 2rem 3rem;
+  position: relative;
+  align-items: flex-start;
+  display: flex;
+  border-radius: 1rem;
+  flex-direction: column;
+  box-shadow: var(--box-shadow);
+}
+
+.profileCard > h1,
+.profileCard > p,
+.profileCard > h3 {
+  margin: 0.5rem;
+}
+
+.interviewSlotForm {
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+}
+@media only screen and (max-width: 780px) {
+  .profile {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .profileCard {
+    padding: 2rem;
+  }
+}
